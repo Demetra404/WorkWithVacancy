@@ -2,7 +2,7 @@ from typing import List, Dict, Any
 from src.vacancy import Vacancy
 
 def convert_to_vacancy_objects(data: List[Dict[str, Any]]) -> List[Vacancy]:
-    """Конвертировать данные"""
+    """Функция для конвертации данных"""
     vacancies = []
     for item in data:
         vacancy = Vacancy(
